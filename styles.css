@@ -1,0 +1,150 @@
+/*Header*/
+.header {
+    background-color: cornflowerblue;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+}
+body{
+    margin: 0;
+}
+/*main Index*/
+      .title_ind{
+        display: flex;
+        justify-content: center;
+      }
+      .inside {
+        display: flex;
+        justify-content: center;
+      }
+        .inside_piz{
+          width: 600px;
+        }
+      .pic_link{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-around;
+      }
+        .text_link{
+          display: flex;
+        flex-wrap: row;
+        justify-content: space-around;
+        }
+        .link_pic {
+          width: 200px;
+        }
+/*Footer*/
+/*Main Pizza*/
+    .pizza_titel {
+        display: flex;
+        justify-content: center;
+    }
+    .pizzas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+        .cost_piz {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: row;
+        }
+        .pizza {
+            height: 150px;
+            width: 250px;
+        }
+        .buy {
+            width: 24px;
+        }
+        /* Salad Titles */
+        .pizza_t {
+            font-size: 18px;
+        }
+        .pizza_ut {
+            font-size: 12px;
+        }
+/* main Salad */
+    .salat_titel {
+        display: flex;
+        justify-content: center;
+    }
+    .main_sa {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+    }
+        .cost_sa{
+            display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        }
+        .salat {
+            width: 240px;
+        }
+        .buy_sa {
+            width: 25px;
+        }
+        /* Salad Titles */
+        .salad_t {
+            font-size: 20px;
+        }
+        .salad_ut {
+            font-size: 15px;
+        }
+/*Main Soft Drinks*/
+.sdr_titel {
+    display: flex;
+    justify-content: center;
+}
+.main_sdr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+
+}
+.price_sdr {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    }
+    .sdrink {
+        width: 240px;
+        height: 130px;
+    }
+    .buy_sdr {
+        width: 25px;
+    }
+    /* Drinks Titles */
+    .sdrink_t {
+        font-size: 20px;
+    }
+    .sdrink_ut {
+        font-size: 15px;
+    }
+/*main Feedback*/
+    .feba_t{
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .main_fb {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+/*Footer*/
+footer {
+    background-color: cornflowerblue;
+                display: flex;
+                justify-content: space-between;
+                bottom: 0;
+                width: 100%;
+                }
+    .sausdr{
+        position: fixed;
+    }
+    .jimmy{
+        font-style: italic;
+    }
