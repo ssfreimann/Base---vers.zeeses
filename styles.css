@@ -4,6 +4,7 @@
                 display: flex;
                 justify-content: space-between;
                 flex-direction: row;
+                padding: 10px;
 }
 body{
     margin: 0;
@@ -42,7 +43,8 @@ body{
     .pizzas {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;
+        padding: 10px;
     }
         .cost_piz {
                     display: flex;
@@ -50,11 +52,12 @@ body{
                     flex-direction: row;
         }
         .pizza {
-            height: 150px;
-            width: 250px;
+            height: 250px;
+            width: 350px;
         }
         .buy {
             width: 24px;
+            cursor: pointer;
         }
         /* Salad Titles */
         .pizza_t {
@@ -73,6 +76,7 @@ body{
         flex-wrap: wrap;
         justify-content: space-between;
         align-content: center;
+        padding: 10px;
     }
         .cost_sa{
             display: flex;
@@ -102,7 +106,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: center;
-
+    padding: 10px;
 }
 .price_sdr {
     display: flex;
@@ -141,7 +145,8 @@ footer {
                 justify-content: space-between;
                 bottom: 0;
                 width: 100%;
-                }
+                padding: 10px;          
+    }   
     .sausdr{
         position: fixed;
     }
