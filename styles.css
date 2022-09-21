@@ -26,6 +26,32 @@ body{
         flex-wrap: row;
         justify-content: space-around;
       }
+      .picContainer {
+        position: relative;
+        text-align: center;
+        color: white;
+      }
+      .pizzalink{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: x-large;
+      }
+      .salatlink{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: x-large;
+      }
+      .sdrlink{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: x-large;
+      }
         .text_link{
           display: flex;
         flex-wrap: row;
@@ -39,6 +65,10 @@ body{
     .pizza_titel {
         display: flex;
         justify-content: center;
+    }
+    .cart {
+        display: flex;
+        justify-content: end;
     }
     .pizzas {
         display: flex;
@@ -88,6 +118,7 @@ body{
         }
         .buy_sa {
             width: 25px;
+            cursor: pointer;
         }
         /* Salad Titles */
         .salad_t {
@@ -118,7 +149,7 @@ body{
         height: 130px;
     }
     .buy_sdr {
-        width: 25px;
+        width: 25px;cursor: pointer;
     }
     /* Drinks Titles */
     .sdrink_t {
@@ -138,6 +169,12 @@ body{
         flex-direction: column;
         align-items: center;
     }
+/*Dankes Seite*/
+.dank_main_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /*Footer*/
 footer {
     background-color: cornflowerblue;

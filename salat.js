@@ -71,3 +71,15 @@ for(let i = 0; i < salate.length;i++){
     `;
     salatContainer.appendChild(newDiv);
 }
+let warenkorbButtons = document.querySelectorAll(".buy_sa");
+console.log("buyButtons", warenkorbButtons);
+for(let i = 0; i < warenkorbButtons.length;i++){
+    let button = warenkorbButtons[i];
+    console.log("Button", button);
+    button.addEventListener("click", function (){
+    let Zahl = document.getElementById("warenkorbZahl").innerText
+    Zahl++
+
+  document.getElementById("warenkorbZahl").innerText = Zahl;
+});
+} 
